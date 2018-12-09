@@ -4,7 +4,8 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
-import DB.JdbcConnectionFactory;
+
+import db.JdbcConnectionFactory;
 
 /**
  * class contains utility methods for new entries into database

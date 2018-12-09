@@ -1,4 +1,4 @@
-package domain;
+package ui;
 
 /**
  * this class represents the superclass of UI, so that can be stored polymorphically in the driver class

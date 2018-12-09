@@ -1,6 +1,9 @@
-package domain;
+package ui;
 import java.util.Arrays;
 import java.util.Scanner;
+
+import domain.DataEntry;
+import domain.FinanceTracker;
 
 /**
  * this class replicates a 'UI' but in the cmd shell

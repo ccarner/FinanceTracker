@@ -1,6 +1,11 @@
 package domain;
 import java.util.ArrayList;
 
+import javafx.application.Application;
+import ui.CmdUi;
+import ui.Ui;
+import ui.applicationWindow;
+
 public class FinanceTracker {
 
 	public static Ui ui;
@@ -10,6 +15,11 @@ public class FinanceTracker {
 	 */
 	public static void main(String[] args) {
 
+		// starts the javaFx separate process
+		// TO-DO close using Platform.exit apparently?
+		Application.launch(applicationWindow.class, args);
+		
+		
 		//To-do: set up as a starting preference (eg which UI type to use);
 		ui = new CmdUi();
 		ui.run();
