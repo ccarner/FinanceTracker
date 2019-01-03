@@ -13,6 +13,7 @@ public class FinanceTracker {
 	 * more stuff on how to USE JBMC from http://www.ntu.edu.sg/home/ehchua/programming/java/jdbc_basic.html
 	 * @param args
 	 */
+	
 	public static void main(String[] args) {
 
 		// starts the javaFx separate process
